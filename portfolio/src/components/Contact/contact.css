@@ -1,0 +1,136 @@
+/*Inter*/
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  background-color: #000000;
+}
+.ful {
+  padding: 20px 7%;
+}
+.contact-background {
+  background-image: url(./img/contact.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+}
+.helo {
+  color: #fb559f;
+  font-family: Jacques Francois;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tit {
+  color: #fff;
+  font-family: Jacques Francois;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.column-title {
+  padding: 70px 0 0 150px;
+}
+
+.inpt {
+  background-color: #262121;
+  color: #fff;
+  font-family: Jomhuria;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px;
+  width: 50%;
+  margin: 0 30px 30px 0;
+  
+}
+.inp {
+  background-color: #262121;
+  color: #fff;
+  font-family: Jomhuria;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px;
+  width: 50%;
+  margin: 0 0 30px 0;
+}
+/* YourComponent.css */
+.in {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+textarea {
+  background-color: #262121;
+  color: #fff;
+  width: 100%;
+  resize: none;
+  color: #fff;
+  font-family: Jomhuria;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px;
+  height: 150px;
+}
+.sendbtn {
+  background: #fb559f;
+  color: #000;
+  font-family: Jacques Francois;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+.left-column-link3{
+    float: inline-end;
+}
+/* Responsive Styles */
+@media screen and (min-width: 768px) {
+  .in {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  form {
+    padding: 20px;
+  }
+  .helo {
+ 
+    font-size: 85px;
+
+  }
+  .tit {
+
+    font-size: 40px;
+
+  }
+  .column-title {
+    padding: 70px 0 0 20px;
+  }
+  .inp{
+    width: 100%;
+  }
+  .inpt{
+    width: 100%;
+  }
+}

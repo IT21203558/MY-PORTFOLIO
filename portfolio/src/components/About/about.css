@@ -1,0 +1,152 @@
+/*Inter*/
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  background-color: #000000;
+}
+.ful {
+  padding: 20px 7%;
+}
+/* TwoColumnRow.css */
+.two-column-row {
+  display: flex;
+}
+.left-column-link3{
+    float: inline-end;
+}
+.bkimg {
+  width: 350px;
+  height: 300px;
+  margin: 0 0 0 150px;
+}
+.left-column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.left-column2 {
+  flex: 1;
+  padding:0 20px;
+  box-sizing: border-box;
+}
+.right-column2 {
+  flex: 1;
+
+  padding:0 20px;
+  box-sizing: border-box;
+}
+.ndparagraph {
+  color: #fff;
+  font-family: Judson;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.right-column {
+  flex: 1;
+
+  padding: 20px;
+  box-sizing: border-box;
+}
+.left-column-title {
+  position: relative;
+  top: 25%;
+  left: 150px;
+}
+.left-column-title2 {
+  padding: 50px;
+}
+.pera {
+  color: #fff;
+  font-family: Jacques Francois;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.abut {
+  color: #fb559f;
+  font-family: Jacques Francois;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .ful {
+    padding: 0px;
+  }
+  .two-column-row {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    flex: 1;
+    width: 100%;
+  }
+  .left-column-title {
+    left: 0px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .bkimg {
+    width: 250px;
+    height: 300px;
+    margin: 0 0 0 50px;
+  }
+  .pera {
+    font-size: 20px;
+  }
+  .abut {
+    font-size: 55px;
+  }
+  .ndparagraph {
+    font-size: 20px;
+  }
+  .left-column-title2 {
+    padding: 20px;
+  }
+  .left-column2 {
+    padding: 0px;
+  }
+  .right-column2 {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 350px) {
+    
+    .bkimg {
+      width: 250px;
+      height: 300px;
+      margin: 0 0 0 20px;
+    }
+    .pera {
+      font-size: 20px;
+    }
+    .abut {
+      font-size: 55px;
+    }
+    .ndparagraph {
+      font-size: 20px;
+    }
+    .left-column-title2 {
+      padding: 20px;
+    }
+    .left-column2 {
+      padding: 0px;
+    }
+    .right-column2 {
+      padding: 0px;
+    }
+  }

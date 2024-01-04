@@ -1,0 +1,143 @@
+/*Inter*/
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  background-color: #000000;
+}
+
+
+.sham-text {
+  font-size: 1.5rem;
+  right: 30px;
+  position: absolute;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.left-column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.right-column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.phtobdy {
+  width: 450px;
+  height: 500px;
+  margin: 60px 0 0 100px;
+}
+.left-column-title {
+  position: relative;
+  top: 30%;
+  left: 150px;
+}
+.helo1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.name1 {
+  color: #fb559f;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.tit1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.svg-3-line {
+  padding: 10px 0 0 2px;
+}
+.logo-icon {
+  width: 30px;
+  height: 30px;
+  margin: 40px 35px 0 0;
+}
+@media screen and (max-width: 968px) {
+  .left-column-title {
+    top: 20%;
+    left: 150px;
+  }
+
+  .helo1 {
+    font-size: 40px;
+  }
+  .name1 {
+    font-size: 90px;
+  }
+  .tit1 {
+    font-size: 45px;
+  }
+
+  .phtobdy {
+    margin:0 0 0 100px;
+    width: 500px;
+    height: 550px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  .phtobdy {
+    margin:0 50px 0 50px;
+    width: 500px;
+    height: 550px;
+  }
+  .left-column-title {
+    position: relative;
+    top: 40%;
+    left: 50px;
+    margin: 50px;
+  }
+  .left-column {
+    flex: 1;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .right-column {
+    flex: 1;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+}
