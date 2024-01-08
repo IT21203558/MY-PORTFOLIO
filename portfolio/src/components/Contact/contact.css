@@ -22,7 +22,7 @@ body {
   background-position: center;
   height: 320px;
 }
-.helo {
+.heloc {
   color: #fb559f;
   font-family: Jacques Francois;
   font-size: 85px;
@@ -30,7 +30,7 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.tit {
+.titc {
   color: #fff;
   font-family: Jacques Francois;
   font-size: 40px;
@@ -38,7 +38,7 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.column-title {
+.column-titlec {
   padding: 70px 0 0 150px;
 }
 
@@ -114,23 +114,39 @@ textarea {
   form {
     padding: 20px;
   }
-  .helo {
- 
-    font-size: 85px;
+  .heloc {
+    font-size: 55px;
 
   }
-  .tit {
+  .titc {
 
     font-size: 40px;
-
   }
-  .column-title {
-    padding: 70px 0 0 20px;
+  .column-titlec {
+    text-align: center;
+    margin: 0;
+    padding: 30px 0 0 0;
   }
   .inp{
     width: 100%;
+    padding: 5px;
+    font-size: 30px;
+    margin: 0;
   }
-  .inpt{
+  .inpt {
+    background-color: #262121;
+    color: #fff;
+    font-family: Jomhuria;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px;
     width: 100%;
+    margin: 0 5px 15px 0;
+    
+  }
+  .contact-background {
+    height: 220px;
   }
 }

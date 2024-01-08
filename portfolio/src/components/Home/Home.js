@@ -14,14 +14,14 @@ const Home = () => {
       <div>
         <div className="container">
           <div className="left-column">
-            <div className="left-column-title">
+            <div className="left-column-title1">
               <p className="helo1">HELLO,</p>
               <p className="name1">I'M Shamindi</p>
               <p className="tit1">Full Stack Developer</p>
               <div className="svg-3-line">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="129"
+                  width="100"
                   height="4"
                   viewBox="0 0 129 3"
                   fill="none"
@@ -31,7 +31,7 @@ const Home = () => {
                     x2="43"
                     y2="1.5"
                     stroke="white"
-                    stroke-width="4"
+                    stroke-width="2"
                   />
                   <line
                     x1="86"
@@ -39,7 +39,7 @@ const Home = () => {
                     x2="129"
                     y2="1.5"
                     stroke="white"
-                    stroke-width="4"
+                    stroke-width="2"
                   />
                   <line
                     x1="43"
@@ -47,7 +47,7 @@ const Home = () => {
                     x2="86"
                     y2="1.5"
                     stroke="#FB559F"
-                    stroke-width="4"
+                    stroke-width="2"
                   />
                 </svg>
               </div>

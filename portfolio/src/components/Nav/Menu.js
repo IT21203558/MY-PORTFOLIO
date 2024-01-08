@@ -2,6 +2,7 @@
 import React from "react";
 import "./Menu.css";
 import { Link } from "react-router-dom";
+
 const Menu = ({ isOpen, onClose }) => {
   return (
     <div className={`menu ${isOpen ? "open" : ""}`}>
@@ -11,10 +12,10 @@ const Menu = ({ isOpen, onClose }) => {
       <div className="menu-container">
         <div className="left-column-menu">
           <div className="welcome-text">
-            Design is so<br></br>
-            simple, that's why<br></br>
-            it is so <br></br>
-            complicated!
+           <p className="welcome-text">Design is so</p> 
+           <p className="welcome-text">simple, that's why</p> 
+           <p className="welcome-text">it is so</p> 
+           <p className="welcome-text">complicated!</p> 
           </div>
         </div>
         <div className="right-column-menu">

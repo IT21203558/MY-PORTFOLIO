@@ -11,15 +11,15 @@ function Contact() {
     <div>
       <Nav/>
       <div className="contact-background">
-        <div className="column-title">
-          <p className="helo">CONTACT</p>
-          <p className="tit">Let's have a cuppa. </p>
-          <br></br>
+        <div className="column-titlec">
+          <p className="heloc">CONTACT</p>
+          <p className="titc">Let's have a cuppa. </p>
+          
           <div className="svg-3-line">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="129"
-              height="4"
+              height="2"
               viewBox="0 0 129 3"
               fill="none"
             >
@@ -30,7 +30,7 @@ function Contact() {
                 x2="129"
                 y2="1.5"
                 stroke="white"
-                stroke-width="4"
+                stroke-width="2"
               />
               <line
                 x1="43"
@@ -38,7 +38,7 @@ function Contact() {
                 x2="86"
                 y2="1.5"
                 stroke="#FB559F"
-                stroke-width="4"
+                stroke-width="2"
               />
             </svg>
           </div>

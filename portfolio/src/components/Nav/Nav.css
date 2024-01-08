@@ -11,26 +11,25 @@
 body {
   background-color: #000000;
 }
-.gray{
-  background-color: #3e3636;
-  padding: 15px 30px;
-}
+
 .navbar {
   
   background-color: #3e3636;
-  padding: 15px 30px;
+  padding: 20px 30px;
   color: white;
   display: flex;
 }
 
 .sham-text {
-  font-size: 1.0rem;
+  font-size: 15px;
   right: 30px;
+  top: 25px;
+  font-weight: 400;
   position: absolute;
 }
 
 .menu-icon {
-  font-size: 1.5rem;
+  font-size: 20px;
   cursor: pointer;
 }
 /* For Webkit browsers like Chrome and Safari */
