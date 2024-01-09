@@ -10,8 +10,8 @@ function About() {
   return (
     <div>
       <Nav />
-      
-      
+      <div className="about-first">
+      <div  className="about-cover-image" >
           <div className="left-column">
             <div className="left-column-title">
               <p className="abut">ABOUT</p>
@@ -50,10 +50,10 @@ function About() {
               </svg>
               
             </div>
-            <img src={photo} alt="About" className="about-cover-image" />
+            
           </div>
-         
-        
+          </div>
+          </div>
 
         <div className="ful">
         <div className="two-column-row">

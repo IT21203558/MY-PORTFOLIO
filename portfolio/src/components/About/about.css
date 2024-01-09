@@ -13,9 +13,11 @@ body {
 }
 
 .about-cover-image {
-  width: 100%; /* Adjust width as needed */
-  height: 100%; /* Adjust height as needed */
   object-fit: cover;
+  background: url("./img/about.png") center/cover;
+  /* Additional styles for full coverage */
+  width: 100%;
+  height: 90%;
 }
 
 .ful {
@@ -63,6 +65,7 @@ body {
   padding:0 20px;
   box-sizing: border-box;
 }
+
 .ndparagraph {
   color: #fff;
   font-family: Judson;
@@ -79,8 +82,9 @@ body {
 }
 .left-column-title {
   position: relative;
-  padding-top: 200px;
+  padding-top: 60px;
   left: 150px;
+  padding-bottom: 60px;
 }
 .left-column-title2 {
   padding: 50px;

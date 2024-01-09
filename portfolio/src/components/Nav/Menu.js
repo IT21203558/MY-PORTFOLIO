@@ -2,6 +2,7 @@
 import React from "react";
 import "./Menu.css";
 import { Link } from "react-router-dom";
+import videoSource from "./img/back2.mp4";
 
 const Menu = ({ isOpen, onClose }) => {
   return (
@@ -11,6 +12,10 @@ const Menu = ({ isOpen, onClose }) => {
       </button>
       <div className="menu-container">
         <div className="left-column-menu">
+        <video className="video-bg" autoPlay muted loop>
+            <source src={videoSource} type="video/mp4" />
+          </video>
+
           <div className="welcome-text">
            <p className="welcome-text">Design is so</p> 
            <p className="welcome-text">simple, that's why</p> 
