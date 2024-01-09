@@ -145,3 +145,135 @@ body {
   }
 }
 
+
+
+/* Inter font and existing styles here... */
+
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 90px;
+  padding-left: 150px;
+  margin-right: 100px;
+  padding-bottom: 50px;
+  gap: 50px;
+  background-color: #333;
+  
+
+}
+
+.project-box {
+  width: 220px;
+  height: 250px;
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.project-box:hover {
+  transform: translateY(-50px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional styles for project details inside project box */
+.project-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Style for project description */
+.project-description {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+.section-title-first{
+  background-color: #333;
+  padding-top: 50px;
+}
+.section-title{
+color: #ffffff;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 500px;
+line-height: normal;
+padding-right: 800px;
+}
+.section-title-zero{
+  padding-top: 100px;
+}
+
+
+.project-popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust transparency */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-popup h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fb559f;
+}
+
+.project-popup p {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 20px;
+  
+
+}
+
+.project-box {
+  position: relative;
+  color: #fb559f;
+}
+
+.project-box:hover .project-popup {
+  opacity: 1;
+}
+
+/* Existing styles... */
+
+.github-button {
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  background-color: #fb559f;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.github-button:hover {
+  background-color: #ff7ec9;
+}
